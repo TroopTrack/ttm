@@ -1,0 +1,19 @@
+import * as React from 'react';
+import { View, Text, Button } from 'react-native';
+import { NavigationScreenProp } from 'react-navigation';
+
+interface Props {
+  navigation: NavigationScreenProp<{}>;
+}
+
+class CommunicateScreen extends React.Component<Props> {
+  render() {
+    return (
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Communicate Screen</Text>
+      </View>
+    );
+  }
+}
+
+export default CommunicateScreen;
